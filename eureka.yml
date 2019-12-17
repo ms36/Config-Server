@@ -1,0 +1,8 @@
+# at least 2 Eureka instances. By default Euredka tries to register with Eureka
+
+eureka:
+  client:
+    register-with-eureka: false
+    
+server:
+  port: 8761
